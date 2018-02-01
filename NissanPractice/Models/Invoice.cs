@@ -3,8 +3,7 @@
     public class Invoice
     {
         public int Id { get; set; }
-
-        public ItemsPurchased ItemsPurchasedId { get; set; }
-        public Cost CostId { get; set; }
+        public ItemsPurchased ItemsPurchased { get; set; }
+        public Cost Cost { get; set; }
     }
 }

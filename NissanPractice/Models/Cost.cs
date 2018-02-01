@@ -3,9 +3,9 @@
     public class Cost
     {
         public int Id { get; set; }
-        public double SubTotal { get; set; }
-        public double Tax { get; set; }
-        public double Total { get; set; }
+        public decimal SubTotal { get; set; }
+        public decimal Tax { get; set; }
+        public decimal Total { get; set; }
 
     }
 }
