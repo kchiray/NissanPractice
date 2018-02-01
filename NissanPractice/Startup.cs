@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using NissanPractice.Models;
 
 namespace NissanPractice
 {
@@ -22,6 +24,9 @@ namespace NissanPractice
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            var connection = @"Server=DESKTOP-O8058I2\SQLEXPRESS;Database=NissanPractice;Trusted_Connection=True;ConnectRetryCount=0";
+            services.AddDbContext<NissanPracticeContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
