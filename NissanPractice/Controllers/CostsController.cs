@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NissanPractice.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace NissanPractice.Controllers
 {
+    
     public class CostsController : Controller
     {
         private readonly NissanPracticeContext _context;
