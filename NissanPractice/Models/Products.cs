@@ -7,5 +7,6 @@
         public string ProductDescription { get; set; }
         public decimal ProductMass { get; set; }
         public decimal ProductCost { get; set; }
+        public byte[] ProductImage { get; set; }
     }
 }

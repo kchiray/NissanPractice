@@ -53,7 +53,7 @@ namespace NissanPractice.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ProductName,ProductDescription,ProductMass,ProductCost")] Products products)
+        public async Task<IActionResult> Create([Bind("Id,ProductName,ProductDescription,ProductMass,ProductCost,ProductImage")] Products products)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace NissanPractice.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ProductName,ProductDescription,ProductMass,ProductCost")] Products products)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ProductName,ProductDescription,ProductMass,ProductCost,ProductImage")] Products products)
         {
             if (id != products.Id)
             {
