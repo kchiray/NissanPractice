@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NissanPractice", "NissanPractice\NissanPractice.csproj", "{7F23ECEF-556A-4AFA-90E1-F4D20DBC699E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NissanPracticeBackend", "NissanPracticeBackend\NissanPracticeBackend.csproj", "{9D2C7EE6-FC2B-40F9-8A31-DAD3961D921C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7F23ECEF-556A-4AFA-90E1-F4D20DBC699E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F23ECEF-556A-4AFA-90E1-F4D20DBC699E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F23ECEF-556A-4AFA-90E1-F4D20DBC699E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2C7EE6-FC2B-40F9-8A31-DAD3961D921C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2C7EE6-FC2B-40F9-8A31-DAD3961D921C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2C7EE6-FC2B-40F9-8A31-DAD3961D921C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2C7EE6-FC2B-40F9-8A31-DAD3961D921C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
